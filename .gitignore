@@ -1,0 +1,20 @@
+# Chaves e Certificados (evitar vazamento acidental no Git)
+*.pfx
+*.p12
+*.key
+*.crt
+*.cer
+*.pem
+
+# Pacotes e binários locais
+openssl/
+*.zip
+*.7z
+*.rar
+
+# Arquivos do sistema e editores
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/
